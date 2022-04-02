@@ -5,6 +5,7 @@
     "manifest_version": 3,
     "author": "Shirish Makwana",
     "action": {
+        "default_title": "App Status Checker",
         "default_popup": "popup.html",
         "default_icon": {
             "16": "./images/icon16.png",
