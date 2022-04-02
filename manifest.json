@@ -1,0 +1,9 @@
+{
+    "name": "App Status Checker",
+    "description": "Set and check status of the application!",
+    "version": "0.1",
+    "manifest_version": 3,
+    "author": "Shirish Makwana",
+    "action": {},
+    "icons": {}
+}

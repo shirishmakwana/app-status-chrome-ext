@@ -1,2 +1,3 @@
 # app-status-chrome-ext
-Set/Check status of the application
+
+Set and check status of the application!
