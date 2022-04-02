@@ -4,7 +4,9 @@
     "version": "0.1",
     "manifest_version": 3,
     "author": "Shirish Makwana",
-    "action": {},
+    "action": {
+        "default_popup": "popup.html"
+    },
     "icons": {},
     "background": {
         "service_worker": "background.js"
