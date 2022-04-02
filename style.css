@@ -20,3 +20,14 @@ body {
     font-size: 1.2rem;
     color: #ffffff;
 }
+
+.notify-button {
+    padding: 5px;
+    outline: 0;
+    border: 1px solid #f44336;
+    background-color: #f44336;
+    color: white;
+    font-weight: bold;
+    margin-top: 1rem;
+    cursor: pointer;
+}
