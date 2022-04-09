@@ -1,33 +1,95 @@
 * {
     padding: 0;
     margin: 0;
-    background-color: black;
 }
 body {
-    font-family: verdana;
-    width: 300px;
-    padding: 1rem;
-}
-
-.heading {
-    color: #009688;
-    padding-bottom: 0.4rem;
-    border-bottom: 2px solid #009688;
+    font-family: "Nunito", sans-serif;
+    /* padding: 50px; */
 }
 
 .container {
-    padding: 0.3rem 0;
-    font-size: 1.2rem;
-    color: #ffffff;
+    width: 460px;
+    font-size: 1rem;
 }
 
-.notify-button {
-    padding: 5px;
-    outline: 0;
-    border: 1px solid #f44336;
-    background-color: #f44336;
-    color: white;
-    font-weight: bold;
-    margin-top: 1rem;
+.card {
+    border-radius: 4px;
+    background: #fff;
+    box-shadow: 0 6px 10px rgba(0, 0, 0, 0.08), 0 0 6px rgba(0, 0, 0, 0.05);
+    transition: 0.3s transform cubic-bezier(0.155, 1.105, 0.295, 1.12), 0.3s box-shadow,
+        0.3s -webkit-transform cubic-bezier(0.155, 1.105, 0.295, 1.12);
+    padding: 14px 80px 18px 36px;
+}
+
+.card h3 {
+    font-weight: 600;
+    font-size: 2rem;
+}
+
+.card img {
+    position: absolute;
+    top: 20px;
+    right: 15px;
+    max-height: 120px;
+}
+
+.card-3 {
+    background-image: url(./images/theming-card.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    background-size: 80px;
+}
+
+.status {
+    /* font-weight: 600; */
+    display: inline-block;
+    padding: 3px 5px;
+    margin-top: 5px;
+}
+.status-l {
+    color: #009688;
+    background-color: #00968817;
+}
+.status-l:hover {
+    background-color: #00968826;
+}
+.status-m {
+    color: #f44336;
+    background-color: #f4433614;
+}
+.status-m:hover {
+    background-color: #f4433624;
+}
+.status-d {
+    color: #ff9800;
+    background-color: #ffc10712;
+}
+.status-d:hover {
+    background-color: #ffc1072e;
+}
+.change-status {
+    font-size: 0.9rem;
+    color: #03a9f4;
     cursor: pointer;
+}
+.display-none {
+    display: none;
+}
+
+.btn-group button {
+    border: 1px solid #9e9e9e38;
+    outline: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    float: left;
+}
+
+.btn-group:after {
+    content: "";
+    clear: both;
+    display: table;
+}
+
+.btn-group button:not(:last-child) {
+    border-right: none;
 }
